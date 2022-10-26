@@ -1,9 +1,10 @@
 pipeline {
   agent none
   stages {
-    stage('error') {
+    stage('Hola') {
       steps {
         echo 'Hola mundo'
+        echo 'Como están todos'
       }
     }
 
